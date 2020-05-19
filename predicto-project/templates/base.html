@@ -1,0 +1,61 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="../static/Vendors/CSS/animate.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+		<style>
+		    .form-control:focus {
+		        border-color: rgb(213, 161, 245);
+		        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgb(213, 161, 245);
+		    }
+
+		</style>
+		<title>PredictO</title>
+	</head>
+
+	<body>
+		
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			  <a class="navbar-brand pl-5" href="#">PredictO</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse px-5" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto">			
+					<li class="nav-item active">
+						<a class="nav-link" href="http://localhost:8000/search/">Home <span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
+			  </div>
+			</nav>
+
+		
+		<div style="background-image:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.5)), url({% static 'Resources/img/background1.jpg' %}); background-size: cover;background-position: center;background-attachment: fixed; min-height: 100vh">
+			<div class="container" style="padding-top: 56px; padding-bottom: 50px;">
+
+			  {% block content %}
+			  {% endblock %}
+
+			</div>			
+		</div>
+
+		<footer class="footer mt-auto py-3 bg-dark" style="margin-top: 30px;">
+			<div class="container text-center">
+				<span class="text-muted">Copyright &copy; 2020 by PredictO. All rights reserved.</span>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../static/Vendors/js/jquery.waypoints.min.js"></script>
+		<script src="../static/Resources/js/scripts.js"></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	</body>
+
+</html>

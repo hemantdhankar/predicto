@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row" style="height: 100vh;">
+	<div class="col-md-7" style="height: 100%;">
+		<div class="animate__animated animate__slideInLeft animate__delay-1s" style="color: black;background-color: rgba(255,255,255,0.7); margin-top: 80px;margin-left: -200px; padding: 10px 50px 10px 50px;border-radius: 30px;">
+			<h1 class="display-4">  Predict Potential Target Organs</h1>
+		</div>
+		<div class="row animate__animated animate__fadeInUp animate__delay-3s" style="color: white;font-size: 25px;top: 45%;left:30%;position: absolute;">
+				<i><q>&ensp;We predict the potential target <br>organs of a known or unknown <br>genome sequence on the basis<br>of existing databases, litereature <br>and researches available online.&ensp;</q></i>	
+		</div>
+	</div>
+	<div class="col animate__animated animate__slideInDown animate__delay-4s" style="height: 100%;">
+		<div class="" style="margin-left: 50%; background-color: rgb(44, 248, 245); margin-top: -10px; width: 90px; height: 75%; border-radius: 20px;">
+			<div  class="bg-dark" style="height: 90%;color: white;text-align: center;">
+				<div style="height: 30%;"></div>
+				<div style="font-size: 13px;letter-spacing: 1px;">
+					
+						Sequence<br><div style="font-size: 20px; padding: 0;margin: 0;">&#8595;</div>	
+						<b>PredictO</b><br><div style="font-size: 20px; padding: 0;margin: 0;">&#8595;</div>	
+						BLAST<br><div style="font-size: 20px; padding: 0;margin: 0;">&#8595;</div>
+						PDB<br><div style="font-size: 20px; padding: 0;margin: 0;">&#8595;</div>
+						PUBMED<br><br><br><br><div class="animate__animated animate__heartBeat animate__delay-3s animate__repeat-3 animate__slow" style="font-size: 50px; padding: 0;margin: 0;">&#8595;</div>											
+					
+				</div>
+			</div>
+			<div class="mr-auto ml-auto" style="padding-left: 6px;padding-top: 8px;">
+				<a class="btn" href="#" role="button" style="background-color: rgb(44, 248, 245); padding-top:5px;padding-bottom: 3px;">
+				<b>Predict</b>
+				</a>
+			</div>
+		</div>
+	</div>	
+</div>
+<div class="row text-white" style="text-align: center; width: 100%; margin-bottom: 50px;">
+	<div class="col-md-10 bg-dark" style="margin-top: 30px;margin-left: auto; margin-right: auto;height: 100%;border-radius: 20px; box-shadow: 5px 7px rgba(0, 0, 0, 0.15);">
+		<div class="bg-dark" style="border-radius: 20px;border: 3px solid rgb(213, 161, 245);margin-left: auto; margin-right: auto;height: 100%;margin-top: 20px;margin-bottom: 20px;padding: 50px;">
+					<h5>Enter these details</h5>
+					<hr style="background-color: rgb(213, 161, 245); margin-top: 40px; border-width: 3px;">
+					<form method="POST" enctype="multipart/form-data">
+						{% csrf_token %}
+						{% if error %}
+						<p>{{ error }}</p>
+						{% endif %}
+						<p></p>
+						<div class="form-row">
+							<div class="form-group" style="padding: 5px 20px 5px 20px; width: 300px;">
+								<input type="text" class="form-control" name="Name" placeholder="Your name" required>
+							</div>			
+							<div class="form-group" style="padding: 5px 20px 5px 20px; width: 300px;">
+								<input type="email" class="form-control" name="Email" placeholder="Your email id" required>
+							</div>							
+						</div>
+						<div style="margin-left: 20px;">
+						    <textarea class="form-control" name="Sequence" placeholder="Paste the sequence here or upload the file below." rows="4"></textarea>
+						</div>
+						<br>
+						<div  style="width: 100px; margin-left: 20px;">
+							<input type="file" name="File" style="margin-right: auto;">	
+						</div>
+				     	<button type="submit" name="submit" class="btn" style="margin-top: 15px; background-color: rgb(213, 161, 245);border-color: rgb(213, 161, 245);"><b>Submit</b></button>
+					</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
