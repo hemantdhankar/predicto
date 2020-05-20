@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="row text-white" id="form" style="text-align: center; width: 100%; margin-bottom: 50px; margin-top: 120px;">
+	<div class="col-md-10 bg-dark" style="margin-top: 30px;margin-left: auto; margin-right: auto;height: 100%;border-radius: 20px; box-shadow: 5px 7px rgba(0, 0, 0, 0.15); opacity: 90%;">
+		<div class="bg-dark" style="border-radius: 20px;border: 3px solid rgb(213, 161, 245);margin-left: auto; margin-right: auto;height: 100%;margin-top: 20px;margin-bottom: 20px;padding: 50px;letter-spacing: 1.3px;">
+			<img src="../static/Resources/img/virus1.gif" height="200px">
+			<h6>Hi {{ name }}, you have sucessfully submitted your request. We are analysing your sequence. It will take some time to prepare results. You can colse this window, you will get the results via an automated email on your email id : <u>{{ email }}</u></h6>
+		</div>
+	</div>
+</div>
+{% endblock %}

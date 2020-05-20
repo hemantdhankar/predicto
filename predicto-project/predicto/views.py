@@ -14,6 +14,8 @@ def home(request):
 			pass
 		name=request.POST["Name"]
 		email=request.POST["Email"]
+		request.session['name'] = name
+		request.session['email'] = email
 		sequence = request.POST["Sequence"]
 		if(not file and not sequence):
 			return render(request, "home.html", {'error': 'Please provide a sequence'})
@@ -26,4 +28,4 @@ def home(request):
 
 
 def submitted(request):
-	return render(request, "submitted.html")
+	return render(request, "submitted.html", {'name':request.session['name'], 'email': request.session['email']})
