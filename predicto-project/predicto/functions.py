@@ -12,6 +12,7 @@ from email import encoders
 from html.parser import HTMLParser
 from selenium import webdriver
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -23,7 +24,9 @@ def run_task(file, name, email, sequence):
 	binary = FirefoxBinary('C:\\Program Files\\Mozilla Firefox\\firefox.exe')
 	pwd = os.getcwd()
 	pwd=pwd+'\\geckodriver.exe'
-	driver = webdriver.Firefox(firefox_binary=binary,executable_path=pwd)
+	options = Options()
+	options.headless = True
+	driver = webdriver.Firefox(options=options, firefox_binary=binary,executable_path=pwd)
 	master = []
 	if(sequence):
 		BLAST(driver, master, 'sample.fa')
@@ -59,10 +62,7 @@ def VIZ(organs,final):
             startangle = 90)
         ax.axis('equal')
         plt.tight_layout()
-        if not os.path.exists('images'):
-            os.makedirs('images')
         plt.savefig('static/output/pred_result.png')
-        plt.show()
     except :
         print("Oops!", sys.exc_info()[0], "occured.")
         print("Cannot make predictions for this virus...")
@@ -82,60 +82,87 @@ def PUBMED(microbes, m1p, m2p, m3p, driver):
     driver.get('https://pubmed.ncbi.nlm.nih.gov/')      # PUBMED
     
     co = 0
-    for i in m1p:
-        for j in range(len(organs)):
-            query = '('+i+' AND '+organs[j]+') OR ('+microbes[0]+' AND '+organs[j]+')'
-            #query = microbes[0] + ' AND ' + i + ' AND ' + organs[j]
+    for j in range(len(organs)):
+        query =  '('+m1p[0]+' AND '+organs[j]+') OR ('+m1p[1]+' AND '+organs[j]+') OR ('+m1p[2]+' AND '+organs[j]+')'
+        #query = i+' AND '+organs[j]
+        #query = microbes[0] + ' AND ' + i + ' AND ' + organs[j]
+        try:
+            driver.find_element_by_xpath('//*[@id="search-form"]/div[1]/div[1]/div/a').click()
+        except:
+            pass        
+        driver.find_element_by_xpath('//*[@id="id_term"]').send_keys(query)
+        driver.find_element_by_xpath('//*[@id="search-form"]/div/div[1]/div/button').click()
+        try:
+            print(co)
+            co+=1
+            result=driver.find_element_by_xpath('//*[@id="search-results"]/div[2]/div[1]/span').text.split()
             try:
-                driver.find_element_by_xpath('//*[@id="search-form"]/div[1]/div[1]/div/a').click()
-            except:
-                pass        
-            driver.find_element_by_xpath('//*[@id="id_term"]').send_keys(query)
-            driver.find_element_by_xpath('//*[@id="search-form"]/div/div[1]/div/button').click()
-            try:
-                print(co)
-                co+=1
-                result=driver.find_element_by_xpath('//*[@id="search-results"]/div[2]/div[1]/span').text.split()
-                try:
-                    driver.find_element_by_xpath('/html/body/main/div[9]/div[2]/section/em[2]').text
-                    print("Not considered")
-                except:                
-                    result[0] = result[0].replace(',','')
-                    final[j]+=int(result[0])
-                    print(query, result[0])
-            except:
-                print("ok")
-                pass
+                driver.find_element_by_xpath('/html/body/main/div[9]/div[2]/section/em[2]').text
+                print("Not considered")
+            except:                
+                result[0] = result[0].replace(',','')
+                final[j]+=int(result[0])
+                print(query, result[0])
+        except:
+            print("ok")
+            pass
 
-    for i in m2p:
-        for j in range(len(organs)):
-            query = '('+i+' AND '+organs[j]+') OR ('+microbes[1]+' AND '+organs[j]+')'
-            #query = microbes[1] + ' AND ' + i + ' AND ' + organs[j]
-            try:
-                driver.find_element_by_xpath('//*[@id="search-form"]/div[1]/div[1]/div/a').click()
-            except:
-                pass
+    for j in range(len(organs)):
+        query = '('+m2p[0]+' AND '+organs[j]+') OR ('+m2p[1]+' AND '+organs[j]+') OR ('+m2p[2]+' AND '+organs[j]+')'
+        #query = i+' AND '+organs[j]
+        #query = microbes[1] + ' AND ' + i + ' AND ' + organs[j]
+        try:
+            driver.find_element_by_xpath('//*[@id="search-form"]/div[1]/div[1]/div/a').click()
+        except:
+            pass
 
-            driver.find_element_by_xpath('//*[@id="id_term"]').send_keys(query)
-            driver.find_element_by_xpath('//*[@id="search-form"]/div/div[1]/div/button').click()
+        driver.find_element_by_xpath('//*[@id="id_term"]').send_keys(query)
+        sleep(1)
+        driver.find_element_by_xpath('//*[@id="search-form"]/div/div[1]/div/button').click()
+        try:
+            print(co)
+            co+=1
+            result=driver.find_element_by_xpath('//*[@id="search-results"]/div[2]/div[1]/span').text.split()
             try:
-                print(co)
-                co+=1
-                result=driver.find_element_by_xpath('//*[@id="search-results"]/div[2]/div[1]/span').text.split()
-                try:
-                    driver.find_element_by_xpath('/html/body/main/div[9]/div[2]/section/em[2]').text
-                    print("Not considered")
-                except:                
-                    result[0] = result[0].replace(',','')
-                    final[j]+=int(result[0])
-                    print(query, result[0])
-            except:
-                print("ok")
-                pass
+                driver.find_element_by_xpath('/html/body/main/div[9]/div[2]/section/em[2]').text
+                print("Not considered")
+            except:                
+                result[0] = result[0].replace(',','')
+                final[j]+=int(result[0])
+                print(query, result[0])
+        except:
+            print("ok")
+            pass
 
-    for i in m3p:
+    for j in range(len(organs)):
+        query = '('+m3p[0]+' AND '+organs[j]+') OR ('+m3p[1]+' AND '+organs[j]+') OR ('+m3p[2]+' AND '+organs[j]+')'
+        #query = i+' AND '+organs[j]
+        #query = microbes[2] + ' AND ' + i + ' AND ' + organs[j]
+        try:
+            driver.find_element_by_xpath('//*[@id="search-form"]/div[1]/div[1]/div/a').click()
+        except:
+            pass
+
+        driver.find_element_by_xpath('//*[@id="id_term"]').send_keys(query)
+        driver.find_element_by_xpath('//*[@id="search-form"]/div/div[1]/div/button').click()
+        try:
+            print(co)
+            co+=1
+            result=driver.find_element_by_xpath('//*[@id="search-results"]/div[2]/div[1]/span').text.split()
+            try:
+                driver.find_element_by_xpath('/html/body/main/div[9]/div[2]/section/em[2]').text
+                print("Not considered")
+            except:                
+                result[0] = result[0].replace(',','')
+                final[j]+=int(result[0])
+                print(query, result[0])
+        except:
+            print("ok")
+            pass
+    
+    for i in microbes:
         for j in range(len(organs)):
-            query = '('+i+' AND '+organs[j]+') OR ('+microbes[2]+' AND '+organs[j]+')'
+            query = i+' AND '+organs[j]
             #query = microbes[2] + ' AND ' + i + ' AND ' + organs[j]
             try:
                 driver.find_element_by_xpath('//*[@id="search-form"]/div[1]/div[1]/div/a').click()
@@ -238,6 +265,12 @@ def BLAST(driver, master, filename):
     microbes[0] = temp0[0]
     microbes[1] = temp1[0]
     microbes[2] = temp2[0]
+    if(microbes[0][-3:]=="..."):
+        microbes[0]=microbes[0][:-3]
+    if(microbes[1][-3:]=="..."):
+        microbes[1]=microbes[0][:-3]
+    if(microbes[2][-3:]=="..."):
+        microbes[2]=microbes[0][:-3]
     
     print(microbes)
 

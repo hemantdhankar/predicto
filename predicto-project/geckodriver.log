@@ -1440,3 +1440,380 @@ JavaScript error: resource:///actors/LightweightThemeChild.jsm, line 28: TypeErr
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1590066828642	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\heman\\AppData\\Local\\Temp\\rust_mozprofile7vG1NK"
+1590066833001	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590066836454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590066836454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590066836454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590066836454	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590066841653	Marionette	INFO	Listening on port 49851
+1590066842397	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rcsb.org/pdb/assets/wro/global_v2_datatable.js?ver=1587488915252, line 94: unreachable code after return statement
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.b949619abed7.js, line 1: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.b949619abed7.js, line 1: TypeError: data is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1590067368467	Marionette	INFO	Stopped listening on port 49851
+[Parent 7488, Gecko_IOThread] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 522
+
+###!!! [Child][MessageChannel::SendAndWait] Error: (msgtype=0x5E0005,name=PImageBridge::Msg_WillClose) Channel error: cannot send/recv
+
+1590077476185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\heman\\AppData\\Local\\Temp\\rust_mozprofileZ5XXuB"
+1590077482775	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590077485973	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590077485974	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590077485974	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590077485974	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1590077498127	Marionette	INFO	Listening on port 53474
+1590077500430	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rcsb.org/pdb/assets/wro/global_v2_datatable.js?ver=1587488915252, line 94: unreachable code after return statement
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.b949619abed7.js, line 1: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.b949619abed7.js, line 1: TypeError: data is undefined
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.e57af4a6a94a.js, line 1: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.e57af4a6a94a.js, line 1: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+1590077705707	Marionette	INFO	Stopped listening on port 53474
+1590077789547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\heman\\AppData\\Local\\Temp\\rust_mozprofileiKf6r2"
+1590077793444	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590077796034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590077796034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590077796034	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590077796035	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590077800045	Marionette	INFO	Listening on port 53702
+1590077800145	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rcsb.org/pdb/assets/wro/global_v2_datatable.js?ver=1587488915252, line 94: unreachable code after return statement
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+[Parent 11100, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1590078969402	Marionette	INFO	Stopped listening on port 53702
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590079101581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\heman\\AppData\\Local\\Temp\\rust_mozprofilec2Wv29"
+1590079105701	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590079108741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590079108742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590079108742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590079108742	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590079113363	Marionette	INFO	Listening on port 54072
+1590079113771	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rcsb.org/pdb/assets/wro/global_v2_datatable.js?ver=1587488915252, line 94: unreachable code after return statement
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+1590079314036	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079315082	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079319985	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079321048	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079325794	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+JavaScript error: https://cdn.ncbi.nlm.nih.gov/pubmed/bae6a413-c132-48ba-a044-8f5af4494487/CACHE/js/output.698fad37aab7.js, line 3: TypeError: data is undefined
+1590079327104	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079330996	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079331919	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079334810	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079335731	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079341090	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079341999	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079345860	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079347268	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1590079753510	Marionette	INFO	Stopped listening on port 54072
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1590080034573	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\heman\\AppData\\Local\\Temp\\rust_mozprofileINmE2X"
+*** You are running in headless mode.
+1590080035411	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590080037768	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590080037768	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590080037769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590080037769	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1590080042186	Marionette	INFO	Listening on port 54407
+1590080042477	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.rcsb.org/pdb/assets/wro/global_v2_datatable.js?ver=1587488915252, line 94: unreachable code after return statement
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: https://www.rcsb.org/build/js/search.js, line 21220: TypeError: data is null
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
