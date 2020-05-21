@@ -17,15 +17,27 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from time import sleep
 
-def run_task(file, name, email):
+def run_task(file, name, email, sequence):
+	if(sequence):
+		make_file(sequence)
 	binary = FirefoxBinary('C:\\Program Files\\Mozilla Firefox\\firefox.exe')
 	pwd = os.getcwd()
 	pwd=pwd+'\\geckodriver.exe'
 	driver = webdriver.Firefox(firefox_binary=binary,executable_path=pwd)
 	master = []
-	BLAST(driver, master, file.name)
-	print(master)
-	send_email(name, email, master, file.name)
+	if(sequence):
+		BLAST(driver, master, 'sample.fa')
+		send_email(name, email, master, 'sample.fa')
+	else:
+		BLAST(driver, master, file.name)
+		send_email(name, email, master, file.name)
+
+
+def make_file(sequence):
+    with open('static/upload/sample.fa', 'w+') as destination:  
+        for chunk in sequence:
+            destination.write(chunk)
+
 
 def handle_uploaded_file(f):  
     with open('static/upload/'+f.name, 'wb+') as destination:  
@@ -36,7 +48,7 @@ def VIZ(organs,final):
     try:
         fig,ax = plt.subplots()
         sep = (0.3,0.3,0.3,0.3,0.3)
-        col = ['#ff9999','#66b3ff','#99ff99','#ffcc99', '#ffaa73']
+        col = ['#ff9999','#66b3ff','#99ff99','#ffcc99', '#d22d2d']
         ax.pie(
             final,
             explode = sep,

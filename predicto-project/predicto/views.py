@@ -19,7 +19,7 @@ def home(request):
 		sequence = request.POST["Sequence"]
 		if(not file and not sequence):
 			return render(request, "home.html", {'error': 'Please provide a sequence'})
-		background_thread=Process(target=run_task, args=(file, name, email))
+		background_thread=Process(target=run_task, args=(file, name, email, sequence))
 		background_thread.daemon=True
 		background_thread.start()
 		return redirect("submitted")
